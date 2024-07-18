@@ -1,0 +1,18 @@
+.matrix{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin-top: 10svh;
+}
+.cell{
+  width: 10rem;
+  height: 10rem;
+  background-color: orange;
+  border: 1px solid black;
+}
+.cell-transform{
+  width: 10rem;
+  height: 10rem;
+  background-color: green;
+  border: 1px solid black;
+}
